@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D39694026BE260700964A95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39693F26BE260700964A95 /* AppDelegate.swift */; };
+		3D39694226BE260700964A95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39694126BE260700964A95 /* SceneDelegate.swift */; };
+		3D39694426BE260700964A95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39694326BE260700964A95 /* ViewController.swift */; };
+		3D39694726BE260700964A95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D39694526BE260700964A95 /* Main.storyboard */; };
+		3D39694A26BE260700964A95 /* FreshWorksAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D39694826BE260700964A95 /* FreshWorksAssignment.xcdatamodeld */; };
+		3D39694C26BE260D00964A95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D39694B26BE260D00964A95 /* Assets.xcassets */; };
+		3D39694F26BE260D00964A95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D39694D26BE260D00964A95 /* LaunchScreen.storyboard */; };
+		3D39695A26BE260E00964A95 /* FreshWorksAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39695926BE260E00964A95 /* FreshWorksAssignmentTests.swift */; };
+		3D39696526BE260E00964A95 /* FreshWorksAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39696426BE260E00964A95 /* FreshWorksAssignmentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D39695626BE260E00964A95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D39693426BE260700964A95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D39693B26BE260700964A95;
+			remoteInfo = FreshWorksAssignment;
+		};
+		3D39696126BE260E00964A95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D39693426BE260700964A95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D39693B26BE260700964A95;
+			remoteInfo = FreshWorksAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D39693C26BE260700964A95 /* FreshWorksAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreshWorksAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D39693F26BE260700964A95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D39694126BE260700964A95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3D39694326BE260700964A95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D39694626BE260700964A95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D39694926BE260700964A95 /* FreshWorksAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FreshWorksAssignment.xcdatamodel; sourceTree = "<group>"; };
+		3D39694B26BE260D00964A95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D39694E26BE260D00964A95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D39695026BE260D00964A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D39695526BE260E00964A95 /* FreshWorksAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreshWorksAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D39695926BE260E00964A95 /* FreshWorksAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshWorksAssignmentTests.swift; sourceTree = "<group>"; };
+		3D39695B26BE260E00964A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D39696026BE260E00964A95 /* FreshWorksAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreshWorksAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D39696426BE260E00964A95 /* FreshWorksAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshWorksAssignmentUITests.swift; sourceTree = "<group>"; };
+		3D39696626BE260E00964A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D39693926BE260700964A95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D39695226BE260E00964A95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D39695D26BE260E00964A95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D39693326BE260700964A95 = {
+			isa = PBXGroup;
+			children = (
+				3D39693E26BE260700964A95 /* FreshWorksAssignment */,
+				3D39695826BE260E00964A95 /* FreshWorksAssignmentTests */,
+				3D39696326BE260E00964A95 /* FreshWorksAssignmentUITests */,
+				3D39693D26BE260700964A95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D39693D26BE260700964A95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D39693C26BE260700964A95 /* FreshWorksAssignment.app */,
+				3D39695526BE260E00964A95 /* FreshWorksAssignmentTests.xctest */,
+				3D39696026BE260E00964A95 /* FreshWorksAssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D39693E26BE260700964A95 /* FreshWorksAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				3D39693F26BE260700964A95 /* AppDelegate.swift */,
+				3D39694126BE260700964A95 /* SceneDelegate.swift */,
+				3D39694326BE260700964A95 /* ViewController.swift */,
+				3D39694526BE260700964A95 /* Main.storyboard */,
+				3D39694B26BE260D00964A95 /* Assets.xcassets */,
+				3D39694D26BE260D00964A95 /* LaunchScreen.storyboard */,
+				3D39695026BE260D00964A95 /* Info.plist */,
+				3D39694826BE260700964A95 /* FreshWorksAssignment.xcdatamodeld */,
+			);
+			path = FreshWorksAssignment;
+			sourceTree = "<group>";
+		};
+		3D39695826BE260E00964A95 /* FreshWorksAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D39695926BE260E00964A95 /* FreshWorksAssignmentTests.swift */,
+				3D39695B26BE260E00964A95 /* Info.plist */,
+			);
+			path = FreshWorksAssignmentTests;
+			sourceTree = "<group>";
+		};
+		3D39696326BE260E00964A95 /* FreshWorksAssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D39696426BE260E00964A95 /* FreshWorksAssignmentUITests.swift */,
+				3D39696626BE260E00964A95 /* Info.plist */,
+			);
+			path = FreshWorksAssignmentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D39693B26BE260700964A95 /* FreshWorksAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D39696926BE260E00964A95 /* Build configuration list for PBXNativeTarget "FreshWorksAssignment" */;
+			buildPhases = (
+				3D39693826BE260700964A95 /* Sources */,
+				3D39693926BE260700964A95 /* Frameworks */,
+				3D39693A26BE260700964A95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreshWorksAssignment;
+			productName = FreshWorksAssignment;
+			productReference = 3D39693C26BE260700964A95 /* FreshWorksAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D39695426BE260E00964A95 /* FreshWorksAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D39696C26BE260E00964A95 /* Build configuration list for PBXNativeTarget "FreshWorksAssignmentTests" */;
+			buildPhases = (
+				3D39695126BE260E00964A95 /* Sources */,
+				3D39695226BE260E00964A95 /* Frameworks */,
+				3D39695326BE260E00964A95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D39695726BE260E00964A95 /* PBXTargetDependency */,
+			);
+			name = FreshWorksAssignmentTests;
+			productName = FreshWorksAssignmentTests;
+			productReference = 3D39695526BE260E00964A95 /* FreshWorksAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D39695F26BE260E00964A95 /* FreshWorksAssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D39696F26BE260E00964A95 /* Build configuration list for PBXNativeTarget "FreshWorksAssignmentUITests" */;
+			buildPhases = (
+				3D39695C26BE260E00964A95 /* Sources */,
+				3D39695D26BE260E00964A95 /* Frameworks */,
+				3D39695E26BE260E00964A95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D39696226BE260E00964A95 /* PBXTargetDependency */,
+			);
+			name = FreshWorksAssignmentUITests;
+			productName = FreshWorksAssignmentUITests;
+			productReference = 3D39696026BE260E00964A95 /* FreshWorksAssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D39693426BE260700964A95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3D39693B26BE260700964A95 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					3D39695426BE260E00964A95 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 3D39693B26BE260700964A95;
+					};
+					3D39695F26BE260E00964A95 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 3D39693B26BE260700964A95;
+					};
+				};
+			};
+			buildConfigurationList = 3D39693726BE260700964A95 /* Build configuration list for PBXProject "FreshWorksAssignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D39693326BE260700964A95;
+			productRefGroup = 3D39693D26BE260700964A95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D39693B26BE260700964A95 /* FreshWorksAssignment */,
+				3D39695426BE260E00964A95 /* FreshWorksAssignmentTests */,
+				3D39695F26BE260E00964A95 /* FreshWorksAssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D39693A26BE260700964A95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D39694F26BE260D00964A95 /* LaunchScreen.storyboard in Resources */,
+				3D39694C26BE260D00964A95 /* Assets.xcassets in Resources */,
+				3D39694726BE260700964A95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D39695326BE260E00964A95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D39695E26BE260E00964A95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D39693826BE260700964A95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D39694A26BE260700964A95 /* FreshWorksAssignment.xcdatamodeld in Sources */,
+				3D39694426BE260700964A95 /* ViewController.swift in Sources */,
+				3D39694026BE260700964A95 /* AppDelegate.swift in Sources */,
+				3D39694226BE260700964A95 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D39695126BE260E00964A95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D39695A26BE260E00964A95 /* FreshWorksAssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D39695C26BE260E00964A95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D39696526BE260E00964A95 /* FreshWorksAssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D39695726BE260E00964A95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D39693B26BE260700964A95 /* FreshWorksAssignment */;
+			targetProxy = 3D39695626BE260E00964A95 /* PBXContainerItemProxy */;
+		};
+		3D39696226BE260E00964A95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D39693B26BE260700964A95 /* FreshWorksAssignment */;
+			targetProxy = 3D39696126BE260E00964A95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D39694526BE260700964A95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D39694626BE260700964A95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D39694D26BE260D00964A95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D39694E26BE260D00964A95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D39696726BE260E00964A95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D39696826BE260E00964A95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D39696A26BE260E00964A95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45BVLV6MJS;
+				INFOPLIST_FILE = FreshWorksAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.harpreet.kaur.FreshWorksAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D39696B26BE260E00964A95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45BVLV6MJS;
+				INFOPLIST_FILE = FreshWorksAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.harpreet.kaur.FreshWorksAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D39696D26BE260E00964A95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45BVLV6MJS;
+				INFOPLIST_FILE = FreshWorksAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.harpreet.kaur.FreshWorksAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreshWorksAssignment.app/FreshWorksAssignment";
+			};
+			name = Debug;
+		};
+		3D39696E26BE260E00964A95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45BVLV6MJS;
+				INFOPLIST_FILE = FreshWorksAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.harpreet.kaur.FreshWorksAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreshWorksAssignment.app/FreshWorksAssignment";
+			};
+			name = Release;
+		};
+		3D39697026BE260E00964A95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45BVLV6MJS;
+				INFOPLIST_FILE = FreshWorksAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.harpreet.kaur.FreshWorksAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FreshWorksAssignment;
+			};
+			name = Debug;
+		};
+		3D39697126BE260E00964A95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45BVLV6MJS;
+				INFOPLIST_FILE = FreshWorksAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.harpreet.kaur.FreshWorksAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FreshWorksAssignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D39693726BE260700964A95 /* Build configuration list for PBXProject "FreshWorksAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D39696726BE260E00964A95 /* Debug */,
+				3D39696826BE260E00964A95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D39696926BE260E00964A95 /* Build configuration list for PBXNativeTarget "FreshWorksAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D39696A26BE260E00964A95 /* Debug */,
+				3D39696B26BE260E00964A95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D39696C26BE260E00964A95 /* Build configuration list for PBXNativeTarget "FreshWorksAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D39696D26BE260E00964A95 /* Debug */,
+				3D39696E26BE260E00964A95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D39696F26BE260E00964A95 /* Build configuration list for PBXNativeTarget "FreshWorksAssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D39697026BE260E00964A95 /* Debug */,
+				3D39697126BE260E00964A95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3D39694826BE260700964A95 /* FreshWorksAssignment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3D39694926BE260700964A95 /* FreshWorksAssignment.xcdatamodel */,
+			);
+			currentVersion = 3D39694926BE260700964A95 /* FreshWorksAssignment.xcdatamodel */;
+			path = FreshWorksAssignment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3D39693426BE260700964A95 /* Project object */;
+}
