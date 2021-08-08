@@ -25,7 +25,10 @@
 		3D39698426BEE7EE00964A95 /* GifFavoriteCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D39698226BEE7EE00964A95 /* GifFavoriteCollectionViewCell.xib */; };
 		3D39698726BEEBA800964A95 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39698626BEEBA800964A95 /* NetworkManager.swift */; };
 		3D39698B26BF358500964A95 /* SearchTrendingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39698A26BF358500964A95 /* SearchTrendingModel.swift */; };
-		3D39698D26C0111C00964A95 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39698C26C0111C00964A95 /* iOSDevCenters+GIF.swift */; };
+		3D3969D026C0861800964A95 /* FreshWorksAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D3969CE26C0861800964A95 /* FreshWorksAssignment.xcdatamodeld */; };
+		3D396A1226C088A500964A95 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D396A1126C088A500964A95 /* CoreDataStack.swift */; };
+		3D396A1526C08AED00964A95 /* GifData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D396A1326C08AED00964A95 /* GifData+CoreDataClass.swift */; };
+		3D396A1626C08AED00964A95 /* GifData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D396A1426C08AED00964A95 /* GifData+CoreDataProperties.swift */; };
 		9B419B1A8A9C84DAAC172B32 /* Pods_FreshWorksAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9E6B9A445C2F6F601786C1 /* Pods_FreshWorksAssignmentTests.framework */; };
 		BA48AAA090868A6C308827E6 /* Pods_FreshWorksAssignment_FreshWorksAssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31557B64C6CD78C16B78797E /* Pods_FreshWorksAssignment_FreshWorksAssignmentUITests.framework */; };
 		EE78241CD0C705C7CCC67B2B /* Pods_FreshWorksAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9047C1CF807D188ABF977FF /* Pods_FreshWorksAssignment.framework */; };
@@ -76,7 +79,10 @@
 		3D39698226BEE7EE00964A95 /* GifFavoriteCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GifFavoriteCollectionViewCell.xib; path = FreshWorksAssignment/Modules/Search/Cells/GifFavoriteCollectionViewCell.xib; sourceTree = SOURCE_ROOT; };
 		3D39698626BEEBA800964A95 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		3D39698A26BF358500964A95 /* SearchTrendingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchTrendingModel.swift; path = FreshWorksAssignment/SearchTrendingModel.swift; sourceTree = SOURCE_ROOT; };
-		3D39698C26C0111C00964A95 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
+		3D3969CF26C0861800964A95 /* FreshWorksAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FreshWorksAssignment.xcdatamodel; sourceTree = "<group>"; };
+		3D396A1126C088A500964A95 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		3D396A1326C08AED00964A95 /* GifData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GifData+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		3D396A1426C08AED00964A95 /* GifData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GifData+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		BCFC9327FCB84687A000CD78 /* Pods-FreshWorksAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshWorksAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-FreshWorksAssignmentTests/Pods-FreshWorksAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE9E6B9A445C2F6F601786C1 /* Pods_FreshWorksAssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreshWorksAssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD907DCB8E46FB732E85C20F /* Pods-FreshWorksAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshWorksAssignment.release.xcconfig"; path = "Target Support Files/Pods-FreshWorksAssignment/Pods-FreshWorksAssignment.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,6 +151,7 @@
 				3D39698926BF354C00964A95 /* ViewModels */,
 				3D39694526BE260700964A95 /* Main.storyboard */,
 				3D39698526BEEB7A00964A95 /* Services */,
+				3D3969D126C0864A00964A95 /* CoreData */,
 				3D39697226BE274D00964A95 /* Modules */,
 				3D39694B26BE260D00964A95 /* Assets.xcassets */,
 				3D39694D26BE260D00964A95 /* LaunchScreen.storyboard */,
@@ -204,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				3D39698126BEE7EE00964A95 /* GifFavoriteCollectionViewCell.swift */,
+				3D3969CE26C0861800964A95 /* FreshWorksAssignment.xcdatamodeld */,
 				3D39698226BEE7EE00964A95 /* GifFavoriteCollectionViewCell.xib */,
 			);
 			path = Cells;
@@ -214,7 +222,6 @@
 			children = (
 				3D39697D26BEE7B700964A95 /* GifSearchTableViewCell.swift */,
 				3D39697E26BEE7B700964A95 /* GifSearchTableViewCell.xib */,
-				3D39698C26C0111C00964A95 /* iOSDevCenters+GIF.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -240,6 +247,16 @@
 			children = (
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3D3969D126C0864A00964A95 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				3D396A1326C08AED00964A95 /* GifData+CoreDataClass.swift */,
+				3D396A1426C08AED00964A95 /* GifData+CoreDataProperties.swift */,
+				3D396A1126C088A500964A95 /* CoreDataStack.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		747E8FDEC29DA86439DB57CD /* Frameworks */ = {
@@ -506,16 +523,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D39694A26BE260700964A95 /* FreshWorksAssignment.xcdatamodeld in Sources */,
-				3D39698D26C0111C00964A95 /* iOSDevCenters+GIF.swift in Sources */,
 				3D39697626BED79000964A95 /* SearchTableViewController.swift in Sources */,
 				3D39698726BEEBA800964A95 /* NetworkManager.swift in Sources */,
 				3D39694426BE260700964A95 /* ViewController.swift in Sources */,
 				3D39697826BED89C00964A95 /* FavoriteCollectionViewController.swift in Sources */,
 				3D39698B26BF358500964A95 /* SearchTrendingModel.swift in Sources */,
+				3D396A1226C088A500964A95 /* CoreDataStack.swift in Sources */,
 				3D39694026BE260700964A95 /* AppDelegate.swift in Sources */,
+				3D396A1526C08AED00964A95 /* GifData+CoreDataClass.swift in Sources */,
 				3D39694226BE260700964A95 /* SceneDelegate.swift in Sources */,
+				3D3969D026C0861800964A95 /* FreshWorksAssignment.xcdatamodeld in Sources */,
 				3D39698326BEE7EE00964A95 /* GifFavoriteCollectionViewCell.swift in Sources */,
 				3D39697F26BEE7B700964A95 /* GifSearchTableViewCell.swift in Sources */,
+				3D396A1626C08AED00964A95 /* GifData+CoreDataProperties.swift in Sources */,
 				3D39697426BE277100964A95 /* RootTabViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -863,6 +883,16 @@
 				3D39694926BE260700964A95 /* FreshWorksAssignment.xcdatamodel */,
 			);
 			currentVersion = 3D39694926BE260700964A95 /* FreshWorksAssignment.xcdatamodel */;
+			path = FreshWorksAssignment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		3D3969CE26C0861800964A95 /* FreshWorksAssignment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3D3969CF26C0861800964A95 /* FreshWorksAssignment.xcdatamodel */,
+			);
+			currentVersion = 3D3969CF26C0861800964A95 /* FreshWorksAssignment.xcdatamodel */;
 			path = FreshWorksAssignment.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

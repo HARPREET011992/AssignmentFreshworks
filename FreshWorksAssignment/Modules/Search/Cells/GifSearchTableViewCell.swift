@@ -14,42 +14,45 @@ class GifSearchTableViewCell: UITableViewCell {
     @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var gifImageView: UIImageView!
     @IBOutlet weak var gifFavButton: UIButton!
+    var checked = false
+//    var localarray = []
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+       
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
     
     func setCellData(_data: String){
-    
-//        print(_data.url?.count)
-//        print(_data.bitly_gif_url?.count)
-//        print(_data.bitly_url?.count)
-//        print(_data.embed_url?.count)
-//        print(_data.source_post_url?.count)
-//        print(_data.content_url?.count)
-      
-      //  guard let gifURL = _data else { return  }
-//         gifImageView.sd_setImage(with: URL(string: _data))
-////        self.gifImageView.sdse
-//        let imageURL = UIImage.gifImageWithURL(_data)
-//        guard let img = imageURL else { return  }
-//        self.gifImageView.image = img
-     //   DispatchQueue.main.async {
-         //   s
-        
-       // }
+        gifFavButton.setImage(UIImage(systemName: "suit.heart"), for: .normal)
+        let buttonSelect = UITapGestureRecognizer(target: self, action: #selector(buttonTapped))
+        gifFavButton.isUserInteractionEnabled = true
+        gifFavButton.addGestureRecognizer(buttonSelect)
+            
         
         let url = URL(string: _data)
         let loader = UIActivityIndicatorView(style: .medium)
         guard let img = url else { return  }
-        gifImageView.setGifFromURL(img, customLoader: loader)
+        DispatchQueue.main.async {
+            self.gifImageView.setGifFromURL(img, customLoader: loader)
+        }
+        
+       
      
+        
+    }
+    @objc func buttonTapped() {
+        if gifFavButton.isSelected == true {
+            gifFavButton.setImage(UIImage(systemName: "suit.heart"), for: .normal)
+            checked = false
+//            delega
+        }else {
+            gifFavButton.setImage(UIImage(systemName: "heart.fill"), for: .normal)
+//            localarray.append(<#T##newElement: Any##Any#>)
+            checked = true
+        }
         
     }
     
