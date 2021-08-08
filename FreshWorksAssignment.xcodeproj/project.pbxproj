@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,19 @@
 		3D39694F26BE260D00964A95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D39694D26BE260D00964A95 /* LaunchScreen.storyboard */; };
 		3D39695A26BE260E00964A95 /* FreshWorksAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39695926BE260E00964A95 /* FreshWorksAssignmentTests.swift */; };
 		3D39696526BE260E00964A95 /* FreshWorksAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39696426BE260E00964A95 /* FreshWorksAssignmentUITests.swift */; };
+		3D39697426BE277100964A95 /* RootTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39697326BE277000964A95 /* RootTabViewController.swift */; };
+		3D39697626BED79000964A95 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39697526BED79000964A95 /* SearchTableViewController.swift */; };
+		3D39697826BED89C00964A95 /* FavoriteCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39697726BED89C00964A95 /* FavoriteCollectionViewController.swift */; };
+		3D39697F26BEE7B700964A95 /* GifSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39697D26BEE7B700964A95 /* GifSearchTableViewCell.swift */; };
+		3D39698026BEE7B700964A95 /* GifSearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D39697E26BEE7B700964A95 /* GifSearchTableViewCell.xib */; };
+		3D39698326BEE7EE00964A95 /* GifFavoriteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39698126BEE7EE00964A95 /* GifFavoriteCollectionViewCell.swift */; };
+		3D39698426BEE7EE00964A95 /* GifFavoriteCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D39698226BEE7EE00964A95 /* GifFavoriteCollectionViewCell.xib */; };
+		3D39698726BEEBA800964A95 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39698626BEEBA800964A95 /* NetworkManager.swift */; };
+		3D39698B26BF358500964A95 /* SearchTrendingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39698A26BF358500964A95 /* SearchTrendingModel.swift */; };
+		3D39698D26C0111C00964A95 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39698C26C0111C00964A95 /* iOSDevCenters+GIF.swift */; };
+		9B419B1A8A9C84DAAC172B32 /* Pods_FreshWorksAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9E6B9A445C2F6F601786C1 /* Pods_FreshWorksAssignmentTests.framework */; };
+		BA48AAA090868A6C308827E6 /* Pods_FreshWorksAssignment_FreshWorksAssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31557B64C6CD78C16B78797E /* Pods_FreshWorksAssignment_FreshWorksAssignmentUITests.framework */; };
+		EE78241CD0C705C7CCC67B2B /* Pods_FreshWorksAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9047C1CF807D188ABF977FF /* Pods_FreshWorksAssignment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2817DEE744D3358496FE4FDE /* Pods-FreshWorksAssignment-FreshWorksAssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshWorksAssignment-FreshWorksAssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-FreshWorksAssignment-FreshWorksAssignmentUITests/Pods-FreshWorksAssignment-FreshWorksAssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		31557B64C6CD78C16B78797E /* Pods_FreshWorksAssignment_FreshWorksAssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreshWorksAssignment_FreshWorksAssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36E6C5006144912E40722C25 /* Pods-FreshWorksAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshWorksAssignment.debug.xcconfig"; path = "Target Support Files/Pods-FreshWorksAssignment/Pods-FreshWorksAssignment.debug.xcconfig"; sourceTree = "<group>"; };
 		3D39693C26BE260700964A95 /* FreshWorksAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreshWorksAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D39693F26BE260700964A95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D39694126BE260700964A95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +67,22 @@
 		3D39696026BE260E00964A95 /* FreshWorksAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreshWorksAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D39696426BE260E00964A95 /* FreshWorksAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshWorksAssignmentUITests.swift; sourceTree = "<group>"; };
 		3D39696626BE260E00964A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D39697326BE277000964A95 /* RootTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTabViewController.swift; sourceTree = "<group>"; };
+		3D39697526BED79000964A95 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		3D39697726BED89C00964A95 /* FavoriteCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCollectionViewController.swift; sourceTree = "<group>"; };
+		3D39697D26BEE7B700964A95 /* GifSearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifSearchTableViewCell.swift; sourceTree = "<group>"; };
+		3D39697E26BEE7B700964A95 /* GifSearchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GifSearchTableViewCell.xib; sourceTree = "<group>"; };
+		3D39698126BEE7EE00964A95 /* GifFavoriteCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GifFavoriteCollectionViewCell.swift; path = FreshWorksAssignment/Modules/Search/Cells/GifFavoriteCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
+		3D39698226BEE7EE00964A95 /* GifFavoriteCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GifFavoriteCollectionViewCell.xib; path = FreshWorksAssignment/Modules/Search/Cells/GifFavoriteCollectionViewCell.xib; sourceTree = SOURCE_ROOT; };
+		3D39698626BEEBA800964A95 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3D39698A26BF358500964A95 /* SearchTrendingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchTrendingModel.swift; path = FreshWorksAssignment/SearchTrendingModel.swift; sourceTree = SOURCE_ROOT; };
+		3D39698C26C0111C00964A95 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
+		BCFC9327FCB84687A000CD78 /* Pods-FreshWorksAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshWorksAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-FreshWorksAssignmentTests/Pods-FreshWorksAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE9E6B9A445C2F6F601786C1 /* Pods_FreshWorksAssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreshWorksAssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD907DCB8E46FB732E85C20F /* Pods-FreshWorksAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshWorksAssignment.release.xcconfig"; path = "Target Support Files/Pods-FreshWorksAssignment/Pods-FreshWorksAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		CEED97FE6BE32198389DCBE9 /* Pods-FreshWorksAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshWorksAssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-FreshWorksAssignmentTests/Pods-FreshWorksAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		D9047C1CF807D188ABF977FF /* Pods_FreshWorksAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreshWorksAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5DEBB56F4A201BB8B371CA5 /* Pods-FreshWorksAssignment-FreshWorksAssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshWorksAssignment-FreshWorksAssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-FreshWorksAssignment-FreshWorksAssignmentUITests/Pods-FreshWorksAssignment-FreshWorksAssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE78241CD0C705C7CCC67B2B /* Pods_FreshWorksAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B419B1A8A9C84DAAC172B32 /* Pods_FreshWorksAssignmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA48AAA090868A6C308827E6 /* Pods_FreshWorksAssignment_FreshWorksAssignmentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +120,8 @@
 				3D39695826BE260E00964A95 /* FreshWorksAssignmentTests */,
 				3D39696326BE260E00964A95 /* FreshWorksAssignmentUITests */,
 				3D39693D26BE260700964A95 /* Products */,
+				AF1CDCF968CCC39234B52CA2 /* Pods */,
+				747E8FDEC29DA86439DB57CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +140,12 @@
 			children = (
 				3D39693F26BE260700964A95 /* AppDelegate.swift */,
 				3D39694126BE260700964A95 /* SceneDelegate.swift */,
+				3D39698826BF353900964A95 /* Models */,
 				3D39694326BE260700964A95 /* ViewController.swift */,
+				3D39698926BF354C00964A95 /* ViewModels */,
 				3D39694526BE260700964A95 /* Main.storyboard */,
+				3D39698526BEEB7A00964A95 /* Services */,
+				3D39697226BE274D00964A95 /* Modules */,
 				3D39694B26BE260D00964A95 /* Assets.xcassets */,
 				3D39694D26BE260D00964A95 /* LaunchScreen.storyboard */,
 				3D39695026BE260D00964A95 /* Info.plist */,
@@ -131,6 +172,99 @@
 			path = FreshWorksAssignmentUITests;
 			sourceTree = "<group>";
 		};
+		3D39697226BE274D00964A95 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				3D39697A26BEE71B00964A95 /* Favorites */,
+				3D39697926BEE70F00964A95 /* Search */,
+				3D39697326BE277000964A95 /* RootTabViewController.swift */,
+				3D39697526BED79000964A95 /* SearchTableViewController.swift */,
+				3D39697726BED89C00964A95 /* FavoriteCollectionViewController.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		3D39697926BEE70F00964A95 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				3D39697C26BEE76B00964A95 /* Cells */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		3D39697A26BEE71B00964A95 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				3D39697B26BEE76200964A95 /* Cells */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		3D39697B26BEE76200964A95 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3D39698126BEE7EE00964A95 /* GifFavoriteCollectionViewCell.swift */,
+				3D39698226BEE7EE00964A95 /* GifFavoriteCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3D39697C26BEE76B00964A95 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3D39697D26BEE7B700964A95 /* GifSearchTableViewCell.swift */,
+				3D39697E26BEE7B700964A95 /* GifSearchTableViewCell.xib */,
+				3D39698C26C0111C00964A95 /* iOSDevCenters+GIF.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3D39698526BEEB7A00964A95 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3D39698626BEEBA800964A95 /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3D39698826BF353900964A95 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D39698A26BF358500964A95 /* SearchTrendingModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3D39698926BF354C00964A95 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		747E8FDEC29DA86439DB57CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9047C1CF807D188ABF977FF /* Pods_FreshWorksAssignment.framework */,
+				31557B64C6CD78C16B78797E /* Pods_FreshWorksAssignment_FreshWorksAssignmentUITests.framework */,
+				BE9E6B9A445C2F6F601786C1 /* Pods_FreshWorksAssignmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF1CDCF968CCC39234B52CA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36E6C5006144912E40722C25 /* Pods-FreshWorksAssignment.debug.xcconfig */,
+				CD907DCB8E46FB732E85C20F /* Pods-FreshWorksAssignment.release.xcconfig */,
+				E5DEBB56F4A201BB8B371CA5 /* Pods-FreshWorksAssignment-FreshWorksAssignmentUITests.debug.xcconfig */,
+				2817DEE744D3358496FE4FDE /* Pods-FreshWorksAssignment-FreshWorksAssignmentUITests.release.xcconfig */,
+				BCFC9327FCB84687A000CD78 /* Pods-FreshWorksAssignmentTests.debug.xcconfig */,
+				CEED97FE6BE32198389DCBE9 /* Pods-FreshWorksAssignmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +272,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D39696926BE260E00964A95 /* Build configuration list for PBXNativeTarget "FreshWorksAssignment" */;
 			buildPhases = (
+				6522271227843B451E8AA456 /* [CP] Check Pods Manifest.lock */,
 				3D39693826BE260700964A95 /* Sources */,
 				3D39693926BE260700964A95 /* Frameworks */,
 				3D39693A26BE260700964A95 /* Resources */,
+				6F2F0210E6C8CB8B5D9A7878 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +291,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D39696C26BE260E00964A95 /* Build configuration list for PBXNativeTarget "FreshWorksAssignmentTests" */;
 			buildPhases = (
+				B4CD5D62807602BFD420A596 /* [CP] Check Pods Manifest.lock */,
 				3D39695126BE260E00964A95 /* Sources */,
 				3D39695226BE260E00964A95 /* Frameworks */,
 				3D39695326BE260E00964A95 /* Resources */,
@@ -173,9 +310,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D39696F26BE260E00964A95 /* Build configuration list for PBXNativeTarget "FreshWorksAssignmentUITests" */;
 			buildPhases = (
+				1F8F070E2A6325E6F6684187 /* [CP] Check Pods Manifest.lock */,
 				3D39695C26BE260E00964A95 /* Sources */,
 				3D39695D26BE260E00964A95 /* Frameworks */,
 				3D39695E26BE260E00964A95 /* Resources */,
+				847D5DE10E4750AFE4FD06DC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,8 +373,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D39698426BEE7EE00964A95 /* GifFavoriteCollectionViewCell.xib in Resources */,
 				3D39694F26BE260D00964A95 /* LaunchScreen.storyboard in Resources */,
 				3D39694C26BE260D00964A95 /* Assets.xcassets in Resources */,
+				3D39698026BEE7B700964A95 /* GifSearchTableViewCell.xib in Resources */,
 				3D39694726BE260700964A95 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,15 +397,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F8F070E2A6325E6F6684187 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FreshWorksAssignment-FreshWorksAssignmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6522271227843B451E8AA456 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FreshWorksAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F2F0210E6C8CB8B5D9A7878 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FreshWorksAssignment/Pods-FreshWorksAssignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FreshWorksAssignment/Pods-FreshWorksAssignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FreshWorksAssignment/Pods-FreshWorksAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		847D5DE10E4750AFE4FD06DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FreshWorksAssignment-FreshWorksAssignmentUITests/Pods-FreshWorksAssignment-FreshWorksAssignmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FreshWorksAssignment-FreshWorksAssignmentUITests/Pods-FreshWorksAssignment-FreshWorksAssignmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FreshWorksAssignment-FreshWorksAssignmentUITests/Pods-FreshWorksAssignment-FreshWorksAssignmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4CD5D62807602BFD420A596 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FreshWorksAssignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D39693826BE260700964A95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3D39694A26BE260700964A95 /* FreshWorksAssignment.xcdatamodeld in Sources */,
+				3D39698D26C0111C00964A95 /* iOSDevCenters+GIF.swift in Sources */,
+				3D39697626BED79000964A95 /* SearchTableViewController.swift in Sources */,
+				3D39698726BEEBA800964A95 /* NetworkManager.swift in Sources */,
 				3D39694426BE260700964A95 /* ViewController.swift in Sources */,
+				3D39697826BED89C00964A95 /* FavoriteCollectionViewController.swift in Sources */,
+				3D39698B26BF358500964A95 /* SearchTrendingModel.swift in Sources */,
 				3D39694026BE260700964A95 /* AppDelegate.swift in Sources */,
 				3D39694226BE260700964A95 /* SceneDelegate.swift in Sources */,
+				3D39698326BEE7EE00964A95 /* GifFavoriteCollectionViewCell.swift in Sources */,
+				3D39697F26BEE7B700964A95 /* GifSearchTableViewCell.swift in Sources */,
+				3D39697426BE277100964A95 /* RootTabViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +689,7 @@
 		};
 		3D39696A26BE260E00964A95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36E6C5006144912E40722C25 /* Pods-FreshWorksAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +709,7 @@
 		};
 		3D39696B26BE260E00964A95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD907DCB8E46FB732E85C20F /* Pods-FreshWorksAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +729,7 @@
 		};
 		3D39696D26BE260E00964A95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCFC9327FCB84687A000CD78 /* Pods-FreshWorksAssignmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +752,7 @@
 		};
 		3D39696E26BE260E00964A95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEED97FE6BE32198389DCBE9 /* Pods-FreshWorksAssignmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +775,7 @@
 		};
 		3D39697026BE260E00964A95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5DEBB56F4A201BB8B371CA5 /* Pods-FreshWorksAssignment-FreshWorksAssignmentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +796,7 @@
 		};
 		3D39697126BE260E00964A95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2817DEE744D3358496FE4FDE /* Pods-FreshWorksAssignment-FreshWorksAssignmentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
