@@ -1,15 +1,10 @@
 //
 //  RootTabViewController.swift
-//  Movieflex
+//  FreshWorksAssignment
 //
-//  Created by Shubham Singh on 20/09/20.
-//  Copyright © 2020 Shubham Singh. All rights reserved.
+//  Created by Happy on 2021-08-07.
 //
-
 import UIKit
-
-/// The rootTabViewController
-/// It currently has two tabs, feel free to create some exciting features and tell me about it :D
 
 class RootTabViewController: UITabBarController {
 
@@ -24,7 +19,6 @@ class RootTabViewController: UITabBarController {
         setupTabs()
         self.selectedIndex = 0
     }
-    
     // MARK:- functions for the viewController
     func setupTabs() {
         self.tabBar.tintColor = UIColor.label
@@ -41,5 +35,7 @@ class RootTabViewController: UITabBarController {
         searchViewController.tabBarItem.titlePositionAdjustment = .init(horizontal: 0, vertical: 2.0)
         viewControllers = [searchViewController,favouriteViewController]
     }
+    
+    
 }
 
